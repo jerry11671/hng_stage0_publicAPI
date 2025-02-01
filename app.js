@@ -10,7 +10,7 @@ app.get('/api/task0/retrieve', (req, res) => {
     res.status(200).json({
         email: 'jerrygodson3@gmail.com',
         current_datetime: new Date().toISOString(),
-        github_url: 'https://github.com/jerry11671/publicAPI.git'
+        github_url: 'https://github.com/jerry11671/hng_stage0_publicAPI.git'
     })
 })
 
